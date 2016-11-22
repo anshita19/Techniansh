@@ -1,0 +1,590 @@
+@media only screen and (max-width:768px){
+    .why-us-content,.model-portfolio-r,.portfolioreview-r{display:block;}
+    .why-img,.model-portfolio,.portfolioreview{display:none;}
+    #services, #services-portfolio{margin:0; padding:50px 0; background:none;}
+
+}
+@media only screen and (max-width:767px){
+	.information-r{display:block;}
+	.information{display:none;}
+}
+
+@media only screen and (min-width:1003px) and (max-width:1024px)
+{
+    #header .navbar-brand{margin: 0; width:170px; }
+
+    #top-bar{margin-top: 0;}
+    #main-menu ul {margin: 25px 0 0;}
+    #main-menu ul li a {font-size: 85%; padding: 0 0 25px;}
+    #main-menu ul li.submenu-one:hover > ul{top: 45px;}
+    #main-menu ul li ul li a{ font-size:80%;}
+
+    #banner ul,#banner ul li{ height: 350px;}
+    #banner ul li{  background-size:cover; background-position: center center;}
+    #banner .banner-title .banner-txt{ font-size:180%; line-height: 30px;}
+    #banner .banner-title .name{font-size: 180%;}
+    #banner .banner-title{ width: 470px; top: 120px;}
+    #about-banner{height:292px;}
+
+    #content-block .block{min-height:396px;}
+    .sub-title{font-size:115%;}
+    .information .business-block{top:-50px;}
+    .information .industry-block{top:-22px;}
+    .information .management-block{bottom:-30px;}
+    .information .qualitative-block{bottom:-20px;}
+	.philosophy-value{top:24%;}
+	.accordian-capital .core-philosophy{margin-left:25px;}
+    .accordian-capital .capital-value{width:130px; height:130px; padding:41px 23px 0;}
+    .accordian-capital .core-philosophy img{left:38%; top:28%;}
+    #about-banner .bg-title h1{font-size:250%;}
+    .blog{min-height:460px; position:relative;}
+    .blog h4{font-size:114.3%;}
+    .blog span{margin:0 1px;}
+    .blog a.btn-read{bottom:25px; left:70px; position:absolute;}
+    #services .content,#services-portfolio .content{width:200px;}
+    #services .content br,#services-portfolio .content br{display:none;}
+
+    #services .investment .content{left:63%; top:60px;}
+    #services .real-time .content{left:77%; width:230px;}
+    #services .real-time .text{left:65%;}
+    #services .real-time .img{left:66%;}
+    #services .advice .content{left:62%; top:551px;}
+    #services .access .text{left:32%;}
+    #services .access .img{left:35%;}
+    #services .access .content{left:10%; width:212px;}
+    #services .report .img{left:29%;}
+    #services .report .text{left:24%;}
+    #services .email .img{left:44%;}
+    #services .email .text{left:35%;}
+    #services .report .content{left:0; width:230px;}
+
+    #services-portfolio .evaluation .content{left:65%;}
+    #services-portfolio .recimmendation .content{left:77%;}
+    #services-portfolio .recommendation .content{left:30%; top:607px; width:464px;}
+    #services-portfolio .access .content{left:2%; top:331px;}
+    #services-portfolio .email .content{left:15%; top:31px; width:232px;}
+    #services-portfolio .email .text{left:31%; top:176px;}
+    #services-portfolio .email .img{left:40%; top:165px;}
+    #services-portfolio .access .img{left:30%;}
+    #services-portfolio .access .text{left:27%;}
+    #services-portfolio .recimmendation .img{left:64%;}
+    #services-portfolio .recimmendation .text{left:61%;}
+
+    .focus .process .icon{width:150px; height:150px;}
+    #offer-block .block{min-height:406px;}
+    #content-block h2::after{margin:20px auto 0; width:80%;}
+
+    .why-img .circle-image{max-width:380px;}
+    .why-img .one{max-width:380px; left:30px; top:-4px;}
+    .two{max-width:380px; right:65px; top:-10px;}
+    .four{max-width:380px; right:60px;}
+    .why-img .three{max-width:380px; left:34px;}
+	#choose-us-block .right-block .block-inner ul li .title{margin-bottom:8px;}
+	#services, #services-portfolio{padding-bottom:160px;}
+	#content-block h3{font-size:150%;}
+	#conditions ul{margin:30px 0 0;}
+
+}
+@media only screen and (min-width:768px) and (max-width:1002px)
+{
+    #top-bar{ margin: 27px 60px 0 0;}
+    .social-media li {margin: 0 2px;}
+    #main-menu{ margin: 0;}
+
+    #mobile-menu{display: block;}
+    #mobile-menu-icon{ display:block; }
+    #dashboard-menu-icon{display: block; margin: 0;}
+    #wrapper{ width:100%; position:relative; box-shadow:0 0 10px 10px rgba(0,0,0,.2); z-index:10; background:#fff;  }
+
+    #header{padding: 10px 0;}
+    #header #main-menu{ display:none !important;} 
+    #header .navbar-brand{margin: 0; width:170px; }
+    #header .container{ width: 100%;}
+
+    #mobile-menu{position: fixed; width: 250px; top: 0; height:100%; z-index:2; overflow-y: scroll; background-color:#E5E5E5; right: -250px;}
+    #mobile-menu.active{right:-250px;}
+
+    #mobile-menu #main-menu{ display:block !important;}
+
+    #main-menu ul{ margin:0; float: none !important;}
+    #main-menu{ float:none; padding:0; border: none; box-shadow: none;}
+    #main-menu ul li{ float:none; padding:0; margin:0; border:none; position:relative; border-bottom:1px solid #283230;}
+    #main-menu ul li ul li ul{ border:none;}
+    #main-menu ul li a{ text-transform:capitalize; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; font-size:100%; border-bottom:none; padding:12px 20px; display:block; color:#dbdbdb; text-transform:none; font-weight:400; background-color:#525C47; margin-bottom:0;}
+    #main-menu ul li ul li a{border-bottom:none; color:#f0f0f0; font-size:100%; text-decoration:none;}
+    #main-menu ul li.active ul li a{ color: #f0f0f0;}
+    #main-menu ul li ul li a:hover{ color: #f0f0f0;}
+    #main-menu ul li > a:hover, #main-menu ul li.active > a{ color:#fff; border-bottom:none; background-color:#7fa616;}
+    #main-menu ul li.changebg > a{ color:#fff;}
+    #main-menu ul li:hover > a{ border-bottom:none;}
+    #main-menu ul li a .submenu{ position:absolute; width:42px; height:42px; right:0; top:1px; display:block;  cursor:pointer; -moz-transition:transform 0.3s ease-in-out;  -webkit-transition:transform 0.3s ease-in-out;  transition:transform 0.3s ease-in-out; }
+    #main-menu ul li a .submenu:before,#main-menu ul li a .submenu:after{ content:""; background-color:#fff; display:block;  -moz-transition:transform 0.3s ease-in-out;  -webkit-transition:transform 0.3s ease-in-out;  transition:transform 0.3s ease-in-out; }
+    #main-menu ul li a .submenu:before{ width:2px; height:15px; position:relative; left:20px; top:12px;}
+    #main-menu ul li a .submenu:after{ width:15px; height:2px; position:relative; left:13px; top:4px;}
+    #main-menu ul li.changebg>a>.submenu:before { transform:rotate(-90deg);}
+    #main-menu ul li.changebg>a>.submenu:after { display:none;}
+
+    #main-menu ul li > ul{ padding:0; border:none;}
+    #main-menu ul li.submenu-one:hover > ul{ top:0;}
+    #main-menu ul li.submenu-one ul{margin-bottom: -1px;}
+    #main-menu ul li ul,#main-menu ul li:hover>ul,#main-menu ul li ul li ul,#main-menu ul li ul li:hover>ul{ width:auto; display:none; opacity:1; position:relative; left:0; top:0; visibility:visible; transition:none; box-shadow:none;}
+    #main-menu ul li ul li a{ padding:12px 30px;}
+    #main-menu ul li ul li ul li a{padding:12px 40px;}
+    #main-menu ul li ul li{ border-bottom:1px solid #283230;}
+
+    #banner ul,#banner ul li{ height: 300px;}
+    #banner ul li{background-size:cover; background-position: center center;}
+    #banner .banner-title .quote-icon{ width: 81px; height: 68px; background-size: cover;}
+    #banner .banner-title{width: 50%; top:90px;}
+    #banner .banner-title .banner-txt{ font-size: 160%; line-height: 25px;}
+    #banner .banner-title .name{ font-size: 160%; margin-right: 50px;}
+    #banner .bx-wrapper .bx-controls .bx-pager{bottom: 20px; left: 40px;} 
+
+    h2{font-size: 170%;}
+    .track-graph{margin:20px auto 0; }
+    #offer-block .block .title{font-size: 130%;}
+    #offer-block .block .title br{display: none;}
+    #offer-block .block{ min-height: auto; border:1px solid #ccc; padding:20px; margin:0 auto 30px;}
+    #offer-block .block .btn{ position: relative;}
+
+    #choose-us-block .left-block .slider-outer{ padding: 30px 0;}
+    .feedback-slider  li{ width: 100%;}
+    #choose-us-block .right-block .block-inner{padding: 30px 0 0;}
+    #report-block .report-inner{margin: 0 15px;}
+    #why-us{padding: 30px 0;}
+    #why-us h4{ font-size: 120%;}
+    #why-us .gap{margin-top: 20px;}
+    #track-record img{max-width: 90%;}
+    #about-banner{height:208px;}
+    #contact-form-bg{margin:35px 0 0;}
+    #choose-us-block .right-block .block-inner ul li .title{margin-bottom:8px;}
+
+    #service2{ padding: 0;}
+    #service .left-gap{ padding-left:20px; }
+    #service .right-gap{ padding-right:20px; }
+    .subscription h2{font-size: 150%;}
+    .subscription .rs{margin: 0 10px; padding:10px 5px;}
+    .subscription .rs h3{font-size: 160%;}
+    .subscription .rs span{font-size: 75%;}
+    #expectations{padding: 20px;}
+    #expectations ul.common-list{margin-top: 20px;}
+
+    #content-block .block{min-height:398px; padding:20px; margin-bottom:30px; border:1px solid #ccc;}
+    #content-block h2::after{margin:20px auto; width:80%;}
+    #about-banner .bg-title h1{font-size:170%;}
+    .information .common-block{width:240px;}
+    .information .industry-block{top:-54px;}
+    .information .business-block{top:-82px;}
+    .information .management-block,.information .qualitative-block{bottom:-73px;}
+    .accordian-capital .core-philosophy{margin:48px 0 0; width:282px;}
+    .accordian-capital .core-philosophy .box{height:220px; width:236px;}
+    .accordian-capital .core-philosophy .box .inner-box{line-height:36px; font-size:100%;}
+    .accordian-capital .core-philosophy img{left:35%; top:25.4%;}
+    .accordian-capital .capital-value{padding:30px 10px; height:110px; width:110px; }
+    .accordian-capital .margin{margin-right:0;}
+    .accordian-capital .philosophy-value .margin img{margin:-25px 0 0;}
+    .accordian-capital .philosophy-diagram::after{margin:50px auto 0; width:80%;}
+    .accordian-capital .panel-body h4{margin:20px 0 0;}
+    .testimonial{min-height:488px;}
+    .plans{margin:0 0 45px;}
+
+    #services .content,#services-portfolio .content{width:150px;}
+    #services .content br,#services-portfolio .content br{display:none;}
+
+    #services .investment .content{left:64%; top:10px; width:220px;}
+    #services .real-time .content{left:84%; width:122px;}
+    #services .real-time .text{left:70%;}
+    #services .investment .text{left:58%;}
+    #services .investment .img{left:60%;}
+    #services .real-time .img{left:71%;}
+    #services .advice .content{left:62%; top:564px; width:250px;}
+    #services .report .content{left:0; width:131px;}
+    #services .access .text{left:27%;}
+    #services .access .img{left:30%;}
+    #services .access .content{left:34px; top:505px; width:190px;}
+    #services .report .img{left:24%;}
+    #services .report .text{left:18%;}
+    #services .email .img{left:41%;}
+    #services .email .text{left:30%;}
+    #services .email .content{left:6%; top:38px; width:225px;}
+
+    #services-portfolio .evaluation .content{left:70%; top:23px; width:226px;}
+    #services-portfolio .recimmendation .content{left:83%; width:139px;}
+    #services-portfolio .recommendation .content{left:30%; top:586px; width:360px;}
+    #services-portfolio .access .content{left:0; top:331px; width:150px;}
+    #services-portfolio .email .content{left:4%; top:31px; width:200px;}
+    #services-portfolio .email .text{left:25%; top:176px;}
+    #services-portfolio .email .img{left:37%; top:165px;}
+    #services-portfolio .access .img{left:24%;}
+    #services-portfolio .access .text{left:20%;}
+    #services-portfolio .recimmendation .img{left:68%;}
+    #services-portfolio .recimmendation .text{left:64%;}
+    #services-portfolio .recommendation .text{left:42%;}
+    #services-portfolio .evaluation .img{left:59%;}
+    #services-portfolio .evaluation .text{left:56%;}
+
+    #subscribe{padding:50px 0 0;}
+    #model-portfolio #subscribe .box{min-height:460px;}
+    .form-control::-moz-placeholder,.select2-container--default .select2-selection--single .select2-selection__placeholder{font-size:13px;}
+    .focus .process .icon{width:150px; height:150px;}
+    #about-banner .bg-title{left:28px; bottom:8px;}
+    .information{margin:95px 0;}
+
+    #myaccount-sidebar ul{display: none;}
+    #myaccount-sidebar ul li.active a::after{display: none;}
+    #myaccount-sidebar ul li a{ padding: 15px;}
+    #content-block.dashboard h1{margin: 20px 0;}
+    #content-block.dashboard table{margin: 0;  }
+	.capital-allocation table th,.capital-allocation table td{font-size:100%; padding:10px !important;}
+
+
+}
+
+
+@media only screen and (max-width:767px)
+{
+    #top-bar{ margin: 10px 60px 0 0;}
+    .social-media{text-align: center}
+    .social-media li {margin: 0 2px;}
+    .social-media li.sign-btn{ margin: 10px 2px 0;}
+    #main-menu{ margin: 0;}
+
+    #mobile-menu{display: block;}
+    #mobile-menu-icon{ display:block; }
+    #dashboard-menu-icon{ display:block; margin: 0; }
+    #wrapper{ width:100%; position:relative; box-shadow:0 0 10px 10px rgba(0,0,0,.2); z-index:10; background:#fff;  }
+
+    #header{padding: 10px 0;}
+    #header #main-menu{ display:none !important;} 
+    #header .navbar-brand{margin: 0; width: 150px;}
+    #header .container{ width: 100%;}
+
+    #mobile-menu{position: fixed; width: 250px; top: 0; height:100%; z-index:2; overflow-y: scroll; background-color:#E5E5E5; right: -250px;}
+    #mobile-menu.active{right:-250px;}
+
+    #mobile-menu #main-menu{ display:block !important;}
+
+    #main-menu ul{ margin:0; float: none !important;}
+    #main-menu{ float:none; padding:0; border: none; box-shadow: none;}
+    #main-menu ul li{ float:none; padding:0; margin:0; border:none; position:relative; border-bottom:1px solid #283230;}
+    #main-menu ul li ul li ul{ border:none;}
+    #main-menu ul li a{ text-transform:capitalize; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; font-size:100%; border-bottom:none; padding:12px 20px; display:block; color:#dbdbdb; text-transform:none; font-weight:400; background-color:#525C47; margin-bottom:0;}
+    #main-menu ul li ul li a{border-bottom:none; color:#f0f0f0; font-size:100%; text-decoration:none;}
+    #main-menu ul li.active ul li a{ color: #f0f0f0;}
+    #main-menu ul li ul li a:hover{ color: #f0f0f0;}
+    #main-menu ul li > a:hover, #main-menu ul li.active > a{ color:#fff; border-bottom:none; background-color:#7fa616;}
+    #main-menu ul li.changebg > a{ color:#fff;}
+    #main-menu ul li:hover > a{ border-bottom:none;}
+    #main-menu ul li a .submenu{ position:absolute; width:42px; height:42px; right:0; top:1px; display:block;  cursor:pointer; -moz-transition:transform 0.3s ease-in-out;  -webkit-transition:transform 0.3s ease-in-out;  transition:transform 0.3s ease-in-out; }
+    #main-menu ul li a .submenu:before,#main-menu ul li a .submenu:after{ content:""; background-color:#fff; display:block;  -moz-transition:transform 0.3s ease-in-out;  -webkit-transition:transform 0.3s ease-in-out;  transition:transform 0.3s ease-in-out; }
+    #main-menu ul li a .submenu:before{ width:2px; height:15px; position:relative; left:20px; top:12px;}
+    #main-menu ul li a .submenu:after{ width:15px; height:2px; position:relative; left:13px; top:4px;}
+    #main-menu ul li.changebg>a>.submenu:before { transform:rotate(-90deg);}
+    #main-menu ul li.changebg>a>.submenu:after { display:none;}
+
+    #main-menu ul li > ul{ padding:0; border:none;}
+    #main-menu ul li.submenu-one:hover > ul{ top:0;}
+    #main-menu ul li.submenu-one ul{margin-bottom: -1px;}
+    #main-menu ul li ul,#main-menu ul li:hover>ul,#main-menu ul li ul li ul,#main-menu ul li ul li:hover>ul{ width:auto; display:none; opacity:1; position:relative; left:0; top:0; visibility:visible; transition:none; box-shadow:none;}
+    #main-menu ul li ul li a{ padding:12px 30px;}
+    #main-menu ul li ul li ul li a{padding:12px 40px;}
+    #main-menu ul li ul li{ border-bottom:1px solid #283230;}
+
+    #banner ul,#banner ul li{ height:270px; }
+    #banner ul li{  background-size:cover; background-position: center center;}
+    #banner .banner-title .quote-icon{ display: none}
+    #banner .banner-title{width:100%; left: 0; right: 0; padding:15px; bottom: 0; top: auto; background-color:rgba(255, 255, 255, 0.5);}
+    #banner .banner-title .banner-txt{ font-size: 120%; line-height: 20px;}
+    #banner .banner-title .name{ font-size: 120%; margin-right:20px;}
+    #banner .bx-wrapper .bx-controls .bx-pager{display: none;}
+
+    h2{font-size: 140%;}
+    .track-graph{margin:20px auto 0; }
+    #offer-block .block .title{font-size: 130%;}
+    #offer-block .block .title br{display: none;}
+    #offer-block .block{ min-height: auto; border:1px solid #ccc; padding:20px; margin:0 0 30px;}
+    #offer-block .block .btn{ position: relative;}
+    #content-block .block .title br{display:none;}
+    #content-block .block{min-height:auto; border:1px solid #ccc; padding:20px; margin:0 0 30px;}
+    #about-banner .bg-title h1{font-size:220%;}
+    .information .common-block{width:220px;}
+    .information .industry-block{top:26px;}
+    .information{padding:230px 0 260px;}
+    .information .business-block{top:-52px;}
+    .information .management-block{bottom:-36px;}
+    .information .qualitative-block{bottom:-16px;}
+    .accordian-capital .core-philosophy{margin:20px 0 0; width:218px;}
+    .accordian-capital .core-philosophy .box{height:198px; width:188px; padding:18px;}
+    .accordian-capital .core-philosophy .box .inner-box{line-height:36px; font-size:80%;}
+    .accordian-capital .core-philosophy img{left:35%; top:33%;}
+    .accordian-capital .capital-value{padding:30px 10px; height:100px; width:92px; font-size:90.7%; }
+    .accordian-capital .margin{margin-right:0;}
+    .accordian-capital .philosophy-value .margin img{margin:-25px 0 0;}
+    .accordian-capital .philosophy-diagram::after{margin:30px auto 0; width:80%;}
+    .philosophy-value{top:30%;}
+    #services .content, #services-portfolio .content,#content-block h2 br{display:none;}
+
+    #services .email .text{left:27%; top:124px;}
+    #services .email .img{left:41%; top:110px;}
+    #services .report .img{left:18%;}
+    #services .report .text{left:12%;}
+    #services .access .img{left:26%; top:410px;}
+    #services .access .text{left:22%; top:458px;}
+    #services .investment .img{left:64%;}
+    #services .investment .text{left:62%;}
+    #services .real-time .img{left:76%;}
+    #services .advice .text{left:56%; top:495px;}
+    #services .advice .img{left:58%; top:442px;}
+    #services .real-time .text{left:74%;}
+
+    #services-portfolio .email .img{left:35%; top:156px;}
+    #services-portfolio .email .text{left:22%; top:170px;}
+    #services-portfolio .evaluation .img{left:62%;}
+    #services-portfolio .evaluation .text{left:58%;}
+    #services-portfolio .recimmendation .img{left:70%; top:320px;}
+    #services-portfolio .recimmendation .text{left:66%; top:397px;}
+    #services-portfolio .access .img{left:20%; top:310px;}
+    #services-portfolio .access .text{left:15%; top:368px;}
+    #services-portfolio .recommendation .img{left:46%;}
+    #services-portfolio .recommendation .text{left:40%;}
+    .plans{margin:0 0 45px;}
+    .testimonial{min-height:532px;}
+    .blog{min-height:430px; position:relative;}
+    .blog a.btn-read{position:absolute; left:0; right:0; bottom:35px; margin:0 auto;}
+    .blog h4{font-size:110%;}
+    .blog span{margin:0;}
+    .center .icon{margin:0 auto;}
+    .focus .process h4{text-align:center;}
+    #content-block .block p{margin-top:10px;}
+    #contact-form-bg{margin:35px 45px 0;}
+
+    #about-banner .bg-title{bottom:0; left:35px;}
+    #about-banner{height:192px;}
+    #investment-advisory .email{margin-bottom:30px;}
+    #investment-advisory p{font-size:100%;}
+
+    #subscription{margin:0 0 -36px;}
+    #subscribe .box .title br{display:none;}
+    #subscribe .box{margin:0 0 30px; border:1px solid #ccc; padding:20px;}
+    #accordion .panel-title span.down-arrow{top:30%;}
+    #accordion .panel-title span.icon{top:12%;}
+    .address{margin:0 0 40px;}
+    #tagline{font-size:200%; line-height:60px;}
+    #subscribe{padding:60px 0 0;}
+    #conditions ul{margin:20px 0 0;}
+    .quotes{margin:0 0 20px;}
+    .accordian-capital .panel-body h4{margin:20px 0;}
+    .table{margin-top:0;}
+
+    #report-block .report-inner .date{background:rgba(0, 0, 0, 0) url("../images/clock-icon.png") no-repeat scroll 251px 3px; text-align:center;}
+    #report-block .report-inner a{display:block; text-align:center;}
+    #report-block .report-inner p{text-align:center;}
+    #content-block h2::after{width:80%; margin:20px auto -20px;}
+
+    #subscription .plans{padding: 0;}
+    #subscription .plan-item{width:100%; display: block; margin: 0 0 50px;}
+
+    #choose-us-block .left-block{background-size: cover; min-height: auto;} 
+    #choose-us-block .left-block .slider-outer{padding: 40px 0;}
+    #choose-us-block .right-block{background-size: cover; min-height: auto;} 
+    #choose-us-block .right-block .block-inner{padding: 40px 0 0;}
+    #report-block .report-inner{margin: 0 0 30px 0;}
+    .footer-bottom [class^="col-"]{ width:100%;} 
+    .footer-bottom .copyright{ margin: 0; text-align: center;}
+    .footer-bottom .designed-by{float: none; margin: 10px 0 0 0; text-align: center;}
+    #contact-form-bg{margin:35px 0 0;}
+    #contact-form{padding:22px 15px 15px;}
+    
+    #myaccount-sidebar ul{display: none;}
+    #myaccount-sidebar ul li.active a::after{display: none;}
+    #myaccount-sidebar ul li a{ padding: 15px;}
+    #content-block.dashboard h1{margin: 20px 0;}
+    #content-block.dashboard table{margin: 0;}
+    form .browse .action{ height: 33px; line-height: 33px;}
+    #content-block.dashboard h1{font-size: 150%;}
+	
+	#content-block h2{font-size:132%;}
+	#content-block h3{font-size:120%;}
+	#content-block h2.heading{line-height:normal;}
+	#content-block #model-portfolio h3,#content-block #portfolio h3{font-size:100%;line-height:normal;}	
+	.model-portfolio-r .heading{font-size:100%;}
+	.information-r .heading{font-size:115%;}
+	.information-r .orange-desc ul,.information-r .blue-desc ul,.information-r .pink-desc ul,.information-r .dblue-desc ul{padding:0 0 0 20px;}
+	.focus .process .icon{height:115px; width:115px; background-size:40%;}
+	.focus .process h4{font-size:140%;}
+	.capital-allocation .table-bordered{margin:0 auto; border:none;}
+	.capital-allocation table th,.capital-allocation table td{font-size:90%; padding:7px !important;}
+	#about-banner .bg-title{left:10px; right:10px; top:auto;}
+	#accordion.accordian-capital .panel-title{padding:3px 20px 3px 0;}
+	#subscribe .box .img{height:115px; width:115px;}
+	#subscribe .box .img span{height:105px; width:105px;}
+	.testimonial h4{font-size:120%;}
+	.testimonial h5,.testimonial p{font-size:100%;}
+}
+
+
+@media only screen and (max-width:640px) {
+    .social-media li.sign-btn{ margin: 0 2px;} 
+    #top-bar{margin:22px 60px 0 0;}
+    #mobile-menu-icon{top: 36px;}
+    #banner .banner-title .name{ font-size: 100%;}  
+    #banner .banner-title .banner-txt{font-size: 100%; margin-bottom: 0;}
+    #term-popup{ width: 90%;}
+
+}
+
+@media only screen and (max-width : 640px) and (orientation : landscape){
+    #subscription .plans{padding: 0;}
+    #subscription .plan-item{width:46%; display:inline-block; margin: 0 10px 50px;}
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    #header .row [class^="col-"]{ width:100%;} 
+    #top-bar{margin:20px 0 0; float: none; }
+    .social-media{float: none; text-align: center;}
+    .social-media li.sign-btn{ margin: 0 2px;} 
+    .form-group.has-captcha .input-group-addon { display: inline-block; margin-top: 5px; width: auto; border-left: 1px solid #bfbfbf;}
+    .form-group.has-captcha .input-group .form-control{ border-right: 1px solid #bfbfbf;}
+    #subscription .plan-item{width: 100%; display: block; margin: 0 0 50px;}
+	.accordian-capital .core-philosophy{display:block; margin:0 auto; width:100%;}
+	.accordian-capital .core-philosophy .box{width:100%;}
+	.accordian-capital .core-philosophy img{top:auto;}
+	.philosophy-value{position:relative; left:0; top:30px; text-align:center; display:block; margin:0 auto 50px;}
+	.accordian-capital .philosophy-diagram::after{display:none;}
+	.accordian-capital .capital-value{ height:auto; width:100%; padding:10px;}
+	.accordian-capital .philosophy-value .margin img{margin:15px auto; transform:rotate(90deg);}
+	.accordian-capital .margin{display:block;}
+	.accordian-capital .panel-body h4{font-size:100%;}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) and (orientation : portrait){
+
+    /*#content-block h2{font-size:132%;}
+    #content-block h3{font-size:120%;}*/
+    #about-banner .bg-title h1{font-size:174%;}
+    #content-block .block p{margin-top:15px;}
+    .information{padding:0;}
+    .information .common-block{display:none;}
+    .information .circel{height:303px; width:auto; background-size:cover;}
+    .information .circel .industry{left:24px; top:70px;}
+    .information .circel .business{right:15px; top:70px;}
+    .information .circel .management{left:36px; bottom:70px;}
+    .information .circel .qualitative{bottom:70px; right:38px;}
+
+    #accordion .panel-title{font-size:93%;}
+    #accordion .panel-title span.down-arrow{top:20%;}
+    .accordian-capital .core-philosophy img{ left:0; right:0; margin:0 auto; transform: rotate(90deg);}
+    #services .title,#services-portfolio .title{font-size:106%; width:150px; top:168px;}
+    #services .text,#services-portfolio .text{display:none;}
+    #services .img img,#services-portfolio .img img{width:35px;}
+    #services .email .img{left:36%; top:80px;}
+    #services .investment .img{top:100px;}
+    #services .advice .img{top:270px;}
+    #services .access .img{top:258px;}
+    #services .report .img{top:165px;}
+    #services .real-time .img{top:189px; left:74%;}
+    #services-portfolio .email .img{left:31%; top:98px;}
+    #services-portfolio .evaluation .img{left:60%; top:102px;}
+    #services-portfolio .recimmendation .img{top:200px;}
+    #services-portfolio .recommendation .img{top:278px;}
+    #services-portfolio .access .img{top:210px;}
+
+    #tagline{font-size:125%; line-height:60px;}
+    .testimonial{min-height:auto;}
+    #blog > li > a, #blog > li > span{min-width:auto;}
+    #blog li a i.fa-arrow-right{margin-left:0;}
+    #blog li a i.fa-arrow-left{margin-right:0;}
+    #subscription .col-xs-6,.main-content .col-xs-6{width:100%;}
+    #investment-advisory .email{width:296px;}
+    #report-block .report-inner .date{background:rgba(0, 0, 0, 0) url("../images/clock-icon.png") no-repeat scroll 120px 3px;}
+	.quotes{font-size:115%;}
+    .focus .process p, .focus .process ul li{font-size:100%; margin:0 0 10px;}
+    .focus .process{padding:30px 20px; margin:0 0 15px;}
+    .arrow{margin:0 auto 15px;}
+    form .form-control{height:35px;}
+    .select2-container--default .select2-selection--single .select2-selection__placeholder,.form-control::-moz-placeholder{font-size:12px;}
+    .why-us-content .title{font-size:115%;}
+
+}
+
+@media only screen and (max-width : 480px) and (orientation : landscape){
+
+    .information .common-block{display:none;}
+    .information{padding:0; margin:30px 0 ;}
+    .common-list2 li{margin:0;}
+    .accordian-capital .core-philosophy img{left:45%; top:auto; transform: rotate(90deg);}
+    .accordian-capital .panel-body h4{margin-bottom:30px;}
+    #services .title{font-size:183%; top:218px;}
+    #services .email .text{left:24%; top:100px;}
+    #services .email .img{left:41%; top:84px;}
+    #services .report .text{left:9%; top:238px; width:102px;}
+    #services .report .img{left:16%; top:184px;}
+    #services .investment .img{left:60%; top:87px;}
+    #services .investment .text{top:145px;}
+    #services .real-time .img{top:230px; left:75%;}
+    #services .real-time .text{left:73%; top:282px;}
+    #services .advice .text{left:49%; top:394px;}
+    #services .advice .img{left:61%; top:350px;}
+    #services .access .img{left:22%; top:320px;}
+    #services .access .text{top:365px;}
+    #subscribe h4,#tagline{font-size:176%;}
+    .subscription .rs h5{font-size:240%;}
+    #conditions p,#accordion .panel-title,.common-list2.font-large li{font-size:100%;}
+    .blog{min-height:380px;}
+    #content-block h2{font-size:120%;}
+    #accordion .panel-title span.icon{top:8%;}
+
+    #services-portfolio .title{font-size:158%; top:215px;}
+    #services-portfolio .email .img{left:37%; top:106px;}
+    #services-portfolio .email .text{left:20%; top:122px;}
+    #services-portfolio .access .img{left:18%; top:242px;}
+    #services-portfolio .access .text{left:12%; top:303px;}
+    #services-portfolio .evaluation .img{left:59%; top:96px;}
+    #services-portfolio .evaluation .text{top:155px;}
+    #services-portfolio .recimmendation .img{left:73%; top:237px;}
+    #services-portfolio .recimmendation .text{left:64%; top:301px;}
+    #services-portfolio .recommendation .img{left:45%; top:344px;}
+    #services-portfolio .recommendation .text{left:36%; top:393px;}
+    .testimonial{min-height:auto;}
+    .main-content .col-xs-6{width:100%;}
+    #report-block .report-inner .date{background:rgba(0, 0, 0, 0) url("../images/clock-icon.png") no-repeat scroll 182px 3px;}
+    #about-banner .bg-title h1{font-size:180%;}
+    .model-portfolio-r .heading,.portfolioreview-r .heading{font-size:107%;}
+
+
+}
+
+@media only screen and (max-width : 320px) and (orientation : portrait){
+
+    #about-banner .bg-title h1{font-size:150%;}
+    #content-block h3{font-size:150%;}
+    .information .circel{height:257px;}
+    .information .circel .industry{left:14px;}
+    .information .circel .business{right:5px;}
+    .information .circel .management{left:22px;}
+    .information .circel .qualitative{right:33px;}
+    #services .img img, #services-portfolio .img img{width:30px;}
+    #services .report .img{top:150px;}
+    #services .access .img{top:229px;}
+    #services .advice .img{top:238px;}
+    #services .real-time .img{top:172px;}
+    #services .title, #services-portfolio .title{top:153px;}
+    #tagline{font-size:140%;}
+    #services-portfolio .recommendation .img{top:246px;}
+    #services-portfolio .access .img{top:186px;}
+    #services-portfolio .recimmendation .img{top:182px;}
+    .blog{min-height:415px;}
+    .blog span{font-size:75%;}
+    .blog p,.blog h5{line-height:18px;}
+    .quotes,#subscribe h5{font-size:100%;}
+    #accordion.accordian-capital .panel-title{font-size:89%; padding:3px 0;}
+    #blog > li > a, #blog > li > span{font-size:88.7%;}
+    #subscribe h4{font-size:150%;}
+    #model-portfolio h3, #portfolio h3,#conditions p{font-size:100%;}
+    #investment-advisory .email{width:260px;}
+    #report-block .report-inner .date{background:rgba(0, 0, 0, 0) url("../images/clock-icon.png") no-repeat scroll 100px 3px;}
+    .select2-container--default .select2-selection--single .select2-selection__placeholder, .form-control::-moz-placeholder{font-size:11px;}
+    .model-portfolio-r .heading,.portfolioreview-r .heading{font-size:100%;}
+
+}

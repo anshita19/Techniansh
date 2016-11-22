@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'adminEmail' => 'anshi.patel4@gmail.com',
+    'supportEmail' => 'anshi.patel4@gmail.com',
+    'user.passwordResetTokenExpire' => 3600,
+    'appoinmentStatus' => ['1' => 'Completed', '2' => 'Pending','3'=>'Cancel'],
+    'testimonialStatus' => ['0' => 'Pending', '1' => 'Approved', '2' => 'Rejected'],
+    'investmentnoteMode' => ['1' => 'Public', '2' => 'Registered Users', '3' => 'Subscribers'],
+    'testimonialStatusClass' => ['0' => 'primary', '1' => 'success', '2' => 'danger'],
+    'appoinmentUserStatus' => ['1' => 'Dismiss', '2' => 'Not Dismiss'],
+    'gender' => ['1' => 'Male', '2' => 'Female'],
+    'currency' => ['1' => 'Rs', '2' => 'Dollar'],
+    'currencyConversionType' => ['1' => 'Lakh', '2' => 'Crore'],
+    'certificateRating' => ['1' => 'A Grade', '2' => 'B Grade', '3' => 'C Grade', '4' => 'D Grade'],
+    'awardMonth' => ['1' => 'January', '2' => 'February', '3' => 'March', '4' => 'April', '5' => 'May', '6' => 'June', '7' => 'July', '8' => 'August', '9' => 'September', '10' => 'October', '11' => 'Novemeber', '12' => 'December'],
+    'projectType'=>['1'=>'Commercial','2'=>'Non-Commercial','3'=>'Others'],
+    'boolean' => [1 => 'Yes', 0 => 'No'], 
+    'status' => [1 => 'Active', 0 => 'Inactive'], 
+    'linkType' => ['0' => 'Parent'], 
+    'sitemapPriority' => ['0' => '0.00', '0.05' => '0.05', '0.10' => '0.10', '0.15' => '0.15', '0.20' => '0.20', '0.25' => '0.25', '0.30' => '0.30', '0.35' => '0.35', '0.40' => '0.40', '0.45' => '0.45', '0.50' => '0.50', '0.55' => '0.55', '0.60' => '0.60', '0.65' => '0.65', '0.70' => '0.70', '0.75' => '0.75', '0.80' => '0.80', '0.85' => '0.85', '0.90' => '0.90', '0.95' => '0.95', '1' => '1.00'], 
+    'sitemapChangeFreq' => [1 => 'Always', 2 => 'Hourly', 3 => 'Daily', 4 => 'Weekly', 5 => 'Monthly', 6 => 'Yearly', 0 => 'Never'], 
+    'robots' => [1 => 'index, follow', 2 => 'index, nofollow', 3 => 'noindex, follow', 4 => 'noindex, nofollow'],     
+    'statusClass' => [1 => 'success', 0 => 'danger'], 
+    'statusIcon' => [1 => 'icon-checkmark3', 0 => 'icon-cross2'], 
+];

@@ -1,0 +1,83 @@
+h2, h3{text-transform: uppercase;}
+#banner { position:relative;margin:0 auto; z-index:9; clear:both;}
+#banner ul { margin:0 auto; padding: 0; list-style: none; height:400px; overflow:hidden }
+#banner ul li {height:400px; position:relative;background-position: center top; background-repeat: no-repeat;}
+#banner .banner-title {  opacity:0; top:130px; left:50px; position:absolute; z-index:11; width: 560px;}
+#banner .banner-title .quote-icon{ background: url(../images/quote-icon.png) no-repeat 0 0; position: absolute;  z-index: -1; left:-30px; top:-40px; display: block; width: 101px; height: 88px;}
+#banner .banner-title .banner-txt{font-family: 'Cinzel', serif; font-size:200%; line-height: 35px; font-weight: 700; color: #374429; margin-bottom: 10px; -moz-text-shadow: 0px 2px 2px rgba(255, 255, 255, 1); -webkit-text-shadow: 0px 2px 2px rgba(255, 255, 255, 1); text-shadow: 0px 2px 2px rgba(255, 255, 255, 1); }
+#banner .banner-title .name{ letter-spacing: 1px; margin-right: 10px; text-align: right; color: #374429; font-size: 200%; font-weight: 700; font-family: 'Condiment', cursive; color: #374429; -moz-text-shadow: 0px 2px 2px rgba(255, 255, 255, 1); -webkit-text-shadow: 0px 2px 2px rgba(255, 255, 255, 1); text-shadow: 0px 2px 2px rgba(255, 255, 255, 1); }
+
+
+#banner .bx-wrapper .bx-viewport{ background:none;}
+.bx-wrapper .bx-controls-auto{ text-indent:-9999px;}
+#banner .bx-wrapper .bx-controls .bx-pager {left:60px; bottom: 30px; padding: 0; width: auto;}
+#banner .bx-wrapper .bx-controls .bx-pager .bx-pager-item{}
+#banner .bx-wrapper .bx-controls .bx-pager .bx-pager-item a{ border-radius: 50%; margin: 0 5px; background: #a6ce39; width: 15px; height:15px; display: block; transition: none;}
+#banner .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active{background: #fff;}
+
+#philosophy-block{padding: 50px 0 30px 0;}
+#philosophy-block p{line-height:24px;}
+.track-graph{margin: 0 auto;}
+
+
+
+#offer-block{padding: 50px 0; background-color: #f8f8f8;}
+#offer-block .block{text-align: center; position: relative; min-height: 345px; padding-bottom: 30px;}
+#offer-block .block .icon{ background-color:#525c47; background-repeat:no-repeat; background-position:center center; width: 85px; height: 85px; display: block; margin: 0 auto 20px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+#offer-block .block .icon01{ background-image:url(../images/offer-icon1.png);}
+#offer-block .block .icon02{ background-image:url(../images/offer-icon2.png);}
+#offer-block .block .icon03{ background-image:url(../images/offer-icon3.png);}
+
+#offer-block .block .title{color: #525c47; font-family: 'Cinzel', serif; font-size: 145%;font-weight:700; line-height: normal; border-bottom: 1px solid #525c47; display: inline;}
+#offer-block .block p{font-size: 90%; margin:20px 0;}
+#offer-block .block .btn{font-size: 80%; width: 85px; -moz-border-radius:12px; -webkit-border-radius:12px; border-radius:12px; border: none; color: #fff; padding: 0; line-height: 27px; position: absolute; left: 0; right: 0; bottom: 0; margin: 0 auto; bottom: 0; top: auto;}
+#offer-block .block .btn.subscribe{background-color: #82b103;}
+#offer-block .block .btn.buy{background-color: #ff7200;}
+#offer-block .block .btn.contact{background-color: #11c0ec;}
+#offer-block .block .btn:hover{background-color: #525c47;}
+
+#choose-us-block{ border-top: 1px solid #fff;}
+#choose-us-block .left-block{ background:url(../images/choose-us-banner01.jpg) no-repeat 0 0; min-height: 450px;}
+#choose-us-block .left-block .slider-outer{ padding: 65px 50px 45px 50px;}
+#choose-us-block .left-block .bx-wrapper .bx-viewport{ background: transparent; }
+#choose-us-block .left-block .feedback-slider{margin: 0; padding: 0; list-style-type: none;}
+#choose-us-block .left-block .feedback-slider .quote-icon{ background: url(../images/quote-icon-small.png) no-repeat 0 0; width: 31px; height: 29px; display: block; margin-bottom: 20px;}
+#choose-us-block .left-block .feedback-slider .para{font-family: 'Cinzel', serif; font-size: 100%; font-weight: 700; line-height: 26px; color: #fff; text-transform: uppercase; margin-bottom: 35px;}
+#choose-us-block .left-block .feedback-slider .info:before{ content: ""; display: block; width: 170px; height: 2px; background-color: #fff; position: absolute; left: 0; top: 0;}
+#choose-us-block .left-block .feedback-slider .info{padding:30px 0; position: relative;}
+#choose-us-block .left-block .feedback-slider .info p{font-family: 'Cinzel', serif; font-size: 120%; font-weight: 700; color: #fff; text-transform: uppercase; margin-bottom:5px; }
+#choose-us-block .left-block .feedback-slider .info span{ color: #fff; font-style: italic;}
+
+.slider-outer .bx-wrapper .bx-controls .bx-pager {left:0; text-align: left; padding: 0; bottom:-20px;}
+.slider-outer .bx-wrapper .bx-controls .bx-pager .bx-pager-item{}
+.slider-outer .bx-wrapper .bx-controls .bx-pager .bx-pager-item a{ margin: 0; background-image:url(../images/pager.png); background-repeat: no-repeat; background-position:  0 0; width:12px; height:11px; display: block; margin-right: 8px;}
+.slider-outer .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active{background-position:0 -17px;}
+
+#choose-us-block h2{ text-transform: none;}
+#choose-us-block .right-block{ background:url(../images/choose-us-banner02.jpg) no-repeat 0 0; min-height: 450px;}
+#choose-us-block .right-block .block-inner{ padding:40px 30px 0 30px;}
+#choose-us-block .right-block .block-inner h3{text-transform: none;}
+#choose-us-block .right-block .block-inner h3 span{ color: #3a432f;}
+#choose-us-block .right-block .block-inner ul{margin: 0; padding: 0; list-style-type: none; }
+#choose-us-block .right-block .block-inner ul li{ padding-left: 50px; position: relative; padding-bottom:25px; margin-left: 17px;}
+#choose-us-block .right-block .block-inner ul li:before{content: ""; width: 1px; left:-1px; display: block; background-color:#727a69; position: absolute; top:29px; bottom: 0; }
+#choose-us-block .right-block .block-inner ul li:last-child:before{display: none;}
+#choose-us-block .right-block .block-inner ul li .sprite-icon .icon{ background-image: url(../images/choose-sprite.png); background-repeat:no-repeat;display: block;position:absolute; left:-17px; }
+#choose-us-block .right-block .block-inner ul li .sprite-icon .icon01{background-position:0 0;  width: 32px; height:29px; }
+#choose-us-block .right-block .block-inner ul li .sprite-icon .icon02{background-position:-48px -1px;  width: 33px; height:33px;}
+#choose-us-block .right-block .block-inner ul li .sprite-icon .icon03{background-position:-99px -1px;  width: 34px; height:43px;}
+#choose-us-block .right-block .block-inner ul li .title{font-family: 'Cinzel', serif; font-size: 135%; line-height:135%; color: #3a432f; margin-bottom: 15px;font-weight:700;}
+#choose-us-block .right-block .block-inner ul li p{ font-size: 90%; margin: 0;}
+
+#report-block{padding:35px 0;}
+#report-block .report-inner{margin: 0 30px;}
+#report-block .report-inner .report-pic{margin:0 auto 10px;}
+#report-block .report-inner .date{margin-bottom: 25px; font-size: 80%; color: #b4b4b4; font-weight:600; background: url(../images/clock-icon.png) no-repeat 0 3px; padding-left: 20px;}
+#report-block .report-inner .title{font-family: 'Cinzel', serif; font-size: 20px; line-height: 24px;  color: #3a432f; margin-bottom: 15px; display: inline-block;font-weight:700;}
+
+#report-block .download-link {border: 1px solid #c9c9c9; width: 100%; height: 72px; display: block; font-size: 107%; font-weight: 700; color: #3a432f; padding: 17px 60px 0 85px; line-height: normal; position: relative; margin-bottom: 25px;}
+#report-block .download-link span.icon {background-color: #ebecea; width: 70px; height:70px; position: absolute; left: 0; top: 0; text-align: center; line-height: 80px;}
+#report-block .download-link .pdf { background-image: url(../images/pdf-icon-large.png); background-repeat: no-repeat; display: inline-block; vertical-align: middle; background-position: 0 12px; width: 39px; height: 70px;}
+#report-block .download-link span.size {display: block; font-size: 72%; font-weight: 400;}
+#report-block .download-link .dwn { background-image: url(../images/download-icon.png); background-repeat: no-repeat; background-position:0 0; width: 36px; height: 43px; position: absolute; right: 15px; top:15px;}
+#report-block .download-link:hover {background-color: #DCDEDA; color: #3a432f;}
